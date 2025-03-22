@@ -48,7 +48,10 @@ public class Pelicula {
 		return tiene_poster;
 	}
 	
-	
+	public String toString () {
+		return this.getNombre_pelicula() + ", " +
+			   this.getAnio_pelicula() + "\n";
+	}
 	
 	
 	
